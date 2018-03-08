@@ -40,7 +40,8 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hello React!</h1>
+        <h1> React!</h1>
+        <div className="my_class"> Demo with sass </div>
         <Link to="/login">Login</Link>
       </div>
     )
